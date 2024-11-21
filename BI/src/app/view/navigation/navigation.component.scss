@@ -1,35 +1,34 @@
+.sidenav-container {
+  height: 100%;
+}
+
 .nav-bar {
   width: 250px;
+  height: calc(100vh - 60px);
   position: fixed;
-  top: 0;
+  top: 60px;
   left: 0;
-  background-color: #f4f4f4;
-  padding: 100px 10px 10px 10px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
+  padding: 20px 10px;
 }
 
-.inunity-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.nav-btn {
-  width: 100%;
+.nav-btn,
+mat-expansion-panel {
   margin-bottom: 10px;
+  width: 100%;
+  text-align: left;
+  justify-content: flex-start;
 }
+
 .custom-icon {
   width: 24px;
   height: 24px;
   margin-right: 8px;
+  vertical-align: middle;
 }
 
-.navigation {
-  margin-top: 10px;
-}
-
-.align-left {
-  text-align: left;
-  justify-content: flex-start;
+mat-expansion-panel-header {
+  font-weight: 500;
+  padding-left: 15px;
 }

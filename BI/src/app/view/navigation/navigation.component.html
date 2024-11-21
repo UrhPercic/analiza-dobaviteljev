@@ -1,41 +1,46 @@
-<div class="nav-bar">
-  <ng-container *ngFor="let link of links">
-    <ng-container *ngIf="!link.children; else accordionTemplate">
-      <button
-        mat-raised-button
-        [routerLink]="link.route"
-        color="primary"
-        class="nav-btn align-left"
-      >
-        <ng-container
-          *ngIf="link.icon && link.icon.endsWith('.png'); else matIconTemplate"
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav mode="side" opened class="nav-bar">
+    <ng-container *ngFor="let link of links">
+      <ng-container *ngIf="!link.children; else accordionTemplate">
+        <button
+          mat-stroked-button
+          [routerLink]="link.route"
+          color="secondary"
+          class="nav-btn"
         >
           <img
+            *ngIf="link.icon"
             [src]="'assets/icons/' + link.icon"
-            alt="{{ link.label }}"
             class="custom-icon"
           />
-        </ng-container>
-        <ng-template #matIconTemplate>
-          <mat-icon *ngIf="link.icon">{{ link.icon }}</mat-icon>
-        </ng-template>
-        {{ link.label }}
-      </button>
-    </ng-container>
+          {{ link.label }}
+        </button>
+      </ng-container>
 
-    <ng-template #accordionTemplate>
-      <mat-accordion class="navigation">
-        <mat-expansion-panel>
-          <mat-expansion-panel-header>
-            <mat-panel-title>{{ link.label }}</mat-panel-title>
-          </mat-expansion-panel-header>
-          <div *ngFor="let child of link.children">
-            <button mat-button [routerLink]="child.route" class="align-left">
-              {{ child.label }}
-            </button>
-          </div>
-        </mat-expansion-panel>
-      </mat-accordion>
-    </ng-template>
-  </ng-container>
-</div>
+      <ng-template #accordionTemplate>
+        <mat-accordion class="navigation">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <img
+                  *ngIf="link.icon"
+                  [src]="'assets/icons/' + link.icon"
+                  class="custom-icon"
+                />{{ link.label }}</mat-panel-title
+              >
+            </mat-expansion-panel-header>
+            <div *ngFor="let child of link.children">
+              <button
+                mat-stroked-button
+                [routerLink]="child.route"
+                class="nav-btn"
+              >
+                {{ child.label }}
+              </button>
+            </div>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </ng-template>
+    </ng-container>
+  </mat-sidenav>
+</mat-sidenav-container>

@@ -1,19 +1,32 @@
 @use "@angular/material" as mat;
 @use "./colors.scss" as colors;
+
 @include mat.core();
 
 $custom-primary: mat.define-palette(colors.$custom-primary-palette, 500);
 $custom-accent: mat.define-palette(colors.$custom-accent-palette, 500);
 $custom-warn: mat.define-palette(colors.$custom-warn-palette, 500);
 
+$custom-light-secondary: mat.define-palette(
+  colors.$custom-light-secondary-palette,
+  900
+);
+
+$custom-dark-secondary: mat.define-palette(
+  colors.$custom-dark-secondary-palette,
+  500
+);
+
 $custom-typography: mat.define-typography-config(
   $font-family: "Arial, sans-serif",
 );
 
-$custom-theme: mat.define-light-theme(
+// Define the light theme
+$custom-light-theme: mat.define-light-theme(
   (
     color: (
       primary: $custom-primary,
+      secondary: $custom-light-secondary,
       accent: $custom-accent,
       warn: $custom-warn,
     ),
@@ -21,4 +34,21 @@ $custom-theme: mat.define-light-theme(
   )
 );
 
-@include mat.all-component-themes($custom-theme);
+// Define the dark theme
+$custom-dark-theme: mat.define-dark-theme(
+  (
+    color: (
+      primary: $custom-primary,
+      secondary: $custom-dark-secondary,
+      accent: $custom-accent,
+      warn: $custom-warn,
+    ),
+    typography: $custom-typography,
+  )
+);
+
+@include mat.all-component-themes($custom-light-theme);
+
+.dark-theme {
+  @include mat.all-component-colors($custom-dark-theme);
+}

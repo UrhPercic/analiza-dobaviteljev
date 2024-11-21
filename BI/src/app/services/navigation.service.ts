@@ -13,7 +13,13 @@ export class NavigationService {
     },
     {
       label: 'Dobavitelji',
+      icon: 'supplier.png',
       children: [{ label: 'Vsi dobavitelji', route: '/suppliers-home' }],
+    },
+    {
+      label: 'Nastavitve',
+      route: '/settings',
+      icon: 'cogwheel.png',
     },
   ];
 
