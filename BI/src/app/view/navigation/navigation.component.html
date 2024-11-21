@@ -1,8 +1,4 @@
 <div class="nav-bar">
-  <div class="inunity-container">
-    <mat-icon class="inunity"></mat-icon>
-  </div>
-
   <ng-container *ngFor="let link of links">
     <ng-container *ngIf="!link.children; else accordionTemplate">
       <button
