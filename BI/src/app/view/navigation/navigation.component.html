@@ -3,45 +3,43 @@
     <mat-icon class="inunity"></mat-icon>
   </div>
 
-  <button mat-flat-button color="primary" class="nav-btn">Pregled dela</button>
+  <ng-container *ngFor="let link of links">
+    <ng-container *ngIf="!link.children; else accordionTemplate">
+      <button
+        mat-raised-button
+        [routerLink]="link.route"
+        color="primary"
+        class="nav-btn align-left"
+      >
+        <ng-container
+          *ngIf="link.icon && link.icon.endsWith('.png'); else matIconTemplate"
+        >
+          <img
+            [src]="'assets/icons/' + link.icon"
+            alt="{{ link.label }}"
+            class="custom-icon"
+          />
+        </ng-container>
+        <ng-template #matIconTemplate>
+          <mat-icon *ngIf="link.icon">{{ link.icon }}</mat-icon>
+        </ng-template>
+        {{ link.label }}
+      </button>
+    </ng-container>
 
-  <mat-accordion class="navigation">
-    <mat-expansion-panel>
-      <mat-expansion-panel-header>
-        <mat-panel-title> Administracija </mat-panel-title>
-      </mat-expansion-panel-header>
-      <div>
-        <!-- Add buttons for administration links here -->
-      </div>
-    </mat-expansion-panel>
-
-    <mat-expansion-panel>
-      <mat-expansion-panel-header>
-        <mat-panel-title> Lotus Notes </mat-panel-title>
-      </mat-expansion-panel-header>
-      <div>
-        <!-- Add buttons for Lotus Notes links here -->
-      </div>
-    </mat-expansion-panel>
-
-    <mat-expansion-panel>
-      <mat-expansion-panel-header>
-        <mat-panel-title> Mediskop </mat-panel-title>
-      </mat-expansion-panel-header>
-      <div>
-        <!-- Add buttons for Mediskop links here -->
-      </div>
-    </mat-expansion-panel>
-
-    <mat-expansion-panel>
-      <mat-expansion-panel-header>
-        <mat-panel-title> New Section </mat-panel-title>
-      </mat-expansion-panel-header>
-      <div>
-        <button mat-stroked-button>New Link</button>
-      </div>
-    </mat-expansion-panel>
-  </mat-accordion>
-
-  <button mat-stroked-button>Dodelitev pravic</button>
+    <ng-template #accordionTemplate>
+      <mat-accordion class="navigation">
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{ link.label }}</mat-panel-title>
+          </mat-expansion-panel-header>
+          <div *ngFor="let child of link.children">
+            <button mat-button [routerLink]="child.route" class="align-left">
+              {{ child.label }}
+            </button>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </ng-template>
+  </ng-container>
 </div>

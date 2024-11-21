@@ -1,0 +1,42 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-area {
+  display: flex;
+  margin-top: 60px; /* Adjust for the header */
+}
+
+.main-content {
+  margin-left: 250px; /* Width of the sidebar */
+  padding: 20px;
+  width: calc(100% - 250px); /* Fill remaining space */
+}
+
+.nav-bar {
+  width: 250px;
+  height: calc(100vh - 60px); /* Subtract the header height */
+  position: fixed;
+  top: 60px; /* Adjust to match the header height */
+  left: 0;
+  background-color: #f4f4f4;
+  padding: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.inunity-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav-btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.navigation {
+  margin-top: 10px;
+}

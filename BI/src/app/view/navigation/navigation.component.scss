@@ -1,0 +1,35 @@
+.nav-bar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f4f4f4;
+  padding: 50px 10px 10px 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.inunity-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav-btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.custom-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.navigation {
+  margin-top: 10px;
+}
+
+.align-left {
+  text-align: left;
+  justify-content: flex-start;
+}
