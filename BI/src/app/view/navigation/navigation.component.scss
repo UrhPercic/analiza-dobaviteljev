@@ -10,15 +10,44 @@
   left: 0;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
 
 .nav-btn,
 mat-expansion-panel {
-  margin-bottom: 10px;
   width: 100%;
   text-align: left;
   justify-content: flex-start;
+  border: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.navigation {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  mat-expansion-panel {
+    border-radius: 0 !important;
+    box-shadow: none;
+
+    mat-expansion-panel-header {
+      padding-left: 15px;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  ::ng-deep .mat-expansion-panel-body {
+    padding: 0;
+  }
+}
+
+.nav-btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .custom-icon {
@@ -26,9 +55,4 @@ mat-expansion-panel {
   height: 24px;
   margin-right: 8px;
   vertical-align: middle;
-}
-
-mat-expansion-panel-header {
-  font-weight: 500;
-  padding-left: 15px;
 }

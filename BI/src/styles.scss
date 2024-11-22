@@ -9,7 +9,7 @@ $custom-warn: mat.define-palette(colors.$custom-warn-palette, 500);
 
 $custom-light-secondary: mat.define-palette(
   colors.$custom-light-secondary-palette,
-  900
+  200
 );
 
 $custom-dark-secondary: mat.define-palette(
@@ -49,6 +49,12 @@ $custom-dark-theme: mat.define-dark-theme(
 
 @include mat.all-component-themes($custom-light-theme);
 
+:root {
+  --primary-color: #{mat.get-color-from-palette($custom-primary)};
+  --secondary-color: #{mat.get-color-from-palette($custom-light-secondary)};
+}
+
 .dark-theme {
   @include mat.all-component-colors($custom-dark-theme);
+  --secondary-color: #{mat.get-color-from-palette($custom-dark-secondary)};
 }

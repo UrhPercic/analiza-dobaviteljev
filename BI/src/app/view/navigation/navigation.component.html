@@ -8,11 +8,6 @@
           color="secondary"
           class="nav-btn"
         >
-          <img
-            *ngIf="link.icon"
-            [src]="'assets/icons/' + link.icon"
-            class="custom-icon"
-          />
           {{ link.label }}
         </button>
       </ng-container>
@@ -21,13 +16,7 @@
         <mat-accordion class="navigation">
           <mat-expansion-panel>
             <mat-expansion-panel-header>
-              <mat-panel-title>
-                <img
-                  *ngIf="link.icon"
-                  [src]="'assets/icons/' + link.icon"
-                  class="custom-icon"
-                />{{ link.label }}</mat-panel-title
-              >
+              <mat-panel-title> {{ link.label }}</mat-panel-title>
             </mat-expansion-panel-header>
             <div *ngFor="let child of link.children">
               <button
@@ -35,6 +24,11 @@
                 [routerLink]="child.route"
                 class="nav-btn"
               >
+                <img
+                  *ngIf="child.icon"
+                  [src]="'assets/icons/' + child.icon"
+                  class="custom-icon"
+                />
                 {{ child.label }}
               </button>
             </div>

@@ -14,6 +14,21 @@
 .header-title {
   font-size: 20px;
   font-weight: bold;
-  margin-left: 20px;
+  margin-left: 10px;
   color: #1f7fbe;
+}
+
+.current-route {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 30px;
+}
+
+.current-icon {
+  margin: 0 10px;
+  width: 26px;
+  height: 26px;
 }
