@@ -19,6 +19,11 @@ export class NavigationService {
           route: '/suppliers-home',
           icon: 'supplier.png',
         },
+        {
+          label: 'Primerjava',
+          route: '/suppliers-compare',
+          icon: 'decision.png',
+        },
       ],
     },
     {
