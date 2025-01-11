@@ -48,8 +48,26 @@ V začetku decembra smo izvedli predstavitev našega napredka. Predstavitev je v
 - Diskusijo o načrtu za nadaljnje delo, vključno s high-fidelity prototipom in usability testiranjem.
 
 ### High Fidelity Prototipiranje v Figmi (December)
+Naslednji korak je bil izdelava high fidelity prototipa v orodju Figma. Ta faza je obsegala natančnejšo oblikovno predstavitev aplikacije, kjer smo vizualno dodelali uporabniški vmesnik, interakcije ter dodali bolj realistično vsebino in funkcionalne elemente.
+
+High fidelity prototipiranje je potekalo v dveh korakih:
+
+1. **Dodelava vizualnega izgleda**: Osnovno postavitev in strukturo, ki smo jo razvili v low fidelity prototipu, smo nadgradili z vizualnimi elementi, kot so barvne sheme, tipografija, ikone in interaktivne komponente. Dodelali smo tudi posamezne zaslone, da so bili bolj realistični in estetsko dovršeni.
+
+2. **Uveljava interaktivnosti**: V tej fazi smo uvedli interaktivne funkcije. Prototip je omogočal simulacijo uporabniških interakcij, kot so kliki na gumbe, prehodi med zasloni ter odzivi aplikacije na uporabniške vnose.
+
+Za eno izmed ključnih funkcionalnosti smo pripravili dve različici prototipa, na katerih imamo kasneje namen izvesti A/B testiranje, da preverimo, katera verzija ponuja boljšo uporabniško izkušnjo. Obe različici sta na voljo v datoteki **high-prototipA**([povezava](https://www.figma.com/design/y3GHgfQ9yR8ZJ6P8EAOmjh/BI---A?t=iGR8Tc2kamiYd0s0-1)) in **high-prototipB**([povezava](https://www.figma.com/design/CRABkGBXD08iOQNXKYONNp/BI---B?t=iGR8Tc2kamiYd0s0-1))
 
 ### Usability Testiranje (December)
+V okviru vaj smo izvedli usability testiranje našega high fidelity prototipa. Namen testiranja je bil preveriti uporabniško izkušnjo in pridobiti povratne informacije o funkcionalnosti ter enostavnosti uporabe aplikacije. Izroček, ki je bil namenjen enotnem testiranju je navoljo v datoteki **uporabniško_testiranje.docx**
+
+Postopek testiranja je potekal v več fazah:
+
+1. **Izbor testnih uporabnikov**: Za testiranje smo izbrali sošolce, prijatelje in znance. Uporabniki so se razlikovali po stopnji tehnične podkovanosti, da smo lahko ocenili uporabnost tako za izkušene kot manj izkušene uporabnike.
+
+2. **Naloge za uporabnike**: Vsak uporabnik je dobil nabor nalog, ki jih je moral opraviti z našim prototipom. Naloge so vključevale osnovne funkcionalnosti aplikacije, kot so navigacija, iskanje specifičnih funkcij ter uporaba interaktivnih elementov.
+
+3. **Zbiranje povratnih informacij**: Med testiranjem smo spremljali, kako uporabniki pristopajo k reševanju nalog, zabeležili morebitne težave, na katere so naleteli, in zbirali njihove povratne informacije. Uporabniki so po testiranju odgovorili na nekaj vprašanj o svoji izkušnji, kjer so podali dodatne povratne informacije.
 
 ### Analiza Podatkov (December)
 
