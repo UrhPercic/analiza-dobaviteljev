@@ -21,7 +21,7 @@ Repozitorij služi kot arhiv vseh aktivnosti, dokumentov ter datotek, ki smo jih
 
 V prvem koraku projekta smo predlagali idejo za razvoj in izboljšavo sistema za upravljanje dobaviteljev, ki bi bolje ustrezal potrebam uporabnikov. 
 
-Pripravili smo enostranski dokument, v katerem smo opredelili člane ekipe, cilje projekta, metodologijo in načrt izvedbe. Dokument smo oddali konec oktobra z naslovom **predloga_teme.pdf**, ki je dostopen v tem repozitoriju.
+Pripravili smo enostranski dokument, v katerem smo opredelili člane ekipe, cilje projekta, metodologijo in načrt izvedbe. Dokument smo oddali konec oktobra z naslovom [**predloga_teme.pdf**](./predloga_teme.pdf), ki je dostopen v tem repozitoriju.
 
 ### Raziskava Uporabniških Potreb (November)
 
@@ -29,7 +29,7 @@ V novembru smo izvedli raziskavo, osredotočeno na ciljno publiko, da bi bolje r
 
 Ustvarili smo dve personi, ki sta se osredotočili na različne izzive pri uporabi podobnih sistemov. S pomočjo person smo identificirali glavne prioritete uporabnikov, kar je služilo kot osnova za oblikovanje funkcionalnosti in uporabniške izkušnje v nadaljnjih fazah projekta. 
 
-Podrobnosti o personah so na voljo v dokumentu **persone.pdf**.
+Podrobnosti o personah so na voljo v dokumentu [**persone.pdf**](./persone.pdf).
 
 ### Low Fidelity Prototipiranje (November)
 
@@ -37,9 +37,9 @@ Po zaključeni raziskavi smo oblikovali prve osnutke rešitve v obliki **low fid
 
 1. **Konceptualne skice**: Začeli smo s konceptualnimi skicami, podobnimi miselnemu vzorcu, kjer smo zajeli naše začetne ideje in razmišljanja o tem, kaj želimo doseči. Razmišljali smo o osnovni navigaciji, ključnih funkcionalnostih ter dodali komentarje in zamisli (prikazano na strani 1 v **skice.pdf**).
 
-2. **Low fidelity skice uporabniškega vmesnika**: Nato smo izdelali niz skic na papirju, ki so prikazovale osnovno strukturo in postavitev uporabniškega vmesnika (prikazano v **skice.pdf**). Te skice so bile osredotočene na umestitev ključnih elementov, kot so glave, navigacija in področja za vsebino.  
+2. **Low fidelity skice uporabniškega vmesnika**: Nato smo izdelali niz skic na papirju, ki so prikazovale osnovno strukturo in postavitev uporabniškega vmesnika (prikazano v [**skice.pdf**](./skice.pdf)). Te skice so bile osredotočene na umestitev ključnih elementov, kot so glave, navigacija in področja za vsebino.  
 
-3. **Low fidelity prototip v Figmi**: Na podlagi skic na papirju smo ustvarili prvi digitalni prototip v orodju **Figma**. Prototip je prikazal osnovni vizualni izgled aplikacije, vendar brez interakcij. Low-fidelity prototip je na voljo v datoteki **low-prototip.fig** ali na [povezavi](https://www.figma.com/proto/BOxrJTZuz8LsPKgxq1lpb2/BI?node-id=0-1&t=dxAoerunpKTgySFC-1).  
+3. **Low fidelity prototip v Figmi**: Na podlagi skic na papirju smo ustvarili prvi digitalni prototip v orodju **Figma**. Prototip je prikazal osnovni vizualni izgled aplikacije, vendar brez interakcij. Low-fidelity prototip je na voljo v datoteki [**low-prototip.fig**](./low-prototip.fig) ali na [povezavi](https://www.figma.com/proto/BOxrJTZuz8LsPKgxq1lpb2/BI?node-id=0-1&t=dxAoerunpKTgySFC-1).  
 
 ### Mid-Semester Predstavitev (December)
 
@@ -52,14 +52,14 @@ Naslednji korak je bil izdelava high fidelity prototipa v orodju Figma. Ta faza 
 
 High fidelity prototipiranje je potekalo v dveh korakih:
 
-1. **Dodelava vizualnega izgleda**: Osnovno postavitev in strukturo, ki smo jo razvili v low fidelity prototipu, smo nadgradili z vizualnimi elementi, kot so barvne sheme, tipografija, ikone in interaktivne komponente. Dodelali smo tudi posamezne zaslone, da so bili bolj realistični in estetsko dovršeni.
+1. **Dodelava vizualnega izgleda**: Osnovno postavitev in strukturo, ki smo jo razvili v low fidelity prototipu, smo nadgradili z vizualnimi elementi in interaktivnimi komponentami. Dodelali smo tudi bolj realistične in estetsko dovršene posamezne zaslone.
 
 2. **Uveljava interaktivnosti**: V tej fazi smo uvedli interaktivne funkcije. Prototip je omogočal simulacijo uporabniških interakcij, kot so kliki na gumbe, prehodi med zasloni ter odzivi aplikacije na uporabniške vnose.
 
-Za eno izmed ključnih funkcionalnosti smo pripravili dve različici prototipa, na katerih imamo kasneje namen izvesti A/B testiranje, da preverimo, katera verzija ponuja boljšo uporabniško izkušnjo. Obe različici sta na voljo v datoteki **high-prototipA.fig** ([povezava](https://www.figma.com/design/y3GHgfQ9yR8ZJ6P8EAOmjh/BI---A?t=iGR8Tc2kamiYd0s0-1)) in **high-prototipB.fig** ([povezava](https://www.figma.com/design/CRABkGBXD08iOQNXKYONNp/BI---B?t=iGR8Tc2kamiYd0s0-1)).
+Za eno izmed ključnih funkcionalnosti smo pripravili dve različici prototipa, na katerih imamo kasneje namen izvesti A/B testiranje, da preverimo, katera verzija ponuja boljšo uporabniško izkušnjo. Obe različici sta na voljo v datoteki [**high-prototipA.fig**](./high-prototipA.fig) ([povezava](https://www.figma.com/design/y3GHgfQ9yR8ZJ6P8EAOmjh/BI---A?t=iGR8Tc2kamiYd0s0-1)) in [**high-prototipB.fig**](./high-prototipB.fig) ([povezava](https://www.figma.com/design/CRABkGBXD08iOQNXKYONNp/BI---B?t=iGR8Tc2kamiYd0s0-1)).
 
-### Usability Testiranje (December)
-V okviru vaj smo izvedli usability testiranje našega high fidelity prototipa. Namen testiranja je bil preveriti uporabniško izkušnjo in pridobiti povratne informacije o funkcionalnosti ter enostavnosti uporabe aplikacije. Izroček, ki je bil namenjen enotnem testiranju je na voljo v datoteki **uporabniško_testiranje.docx**.
+### Usability Testiranje (December)  
+V okviru vaj smo izvedli usability testiranje našega high fidelity prototipa. Namen testiranja je bil preveriti uporabniško izkušnjo in pridobiti povratne informacije o funkcionalnosti ter enostavnosti uporabe aplikacije. Pred začetkom testiranja smo udeležence najprej prosili za soglasje in jih podrobno seznanili z namenom in potekom testiranja. Dokument, ki smo ga prebrali udeležencem kot uvod v testiranje, je na voljo v datoteki [**uvod-v-testiranje.docx**](./uvod-v-testiranje.docx), izroček za enotno testiranje pa se nahaja v datoteki [**uporabniško_testiranje.docx**](./uporabniško_testiranje.docx).
 
 Postopek testiranja je potekal v več fazah:
 
@@ -69,9 +69,14 @@ Postopek testiranja je potekal v več fazah:
 
 3. **Zbiranje povratnih informacij**: Med testiranjem smo spremljali, kako uporabniki pristopajo k reševanju nalog, zabeležili morebitne težave, na katere so naleteli, in zbirali njihove povratne informacije. Uporabniki so po testiranju odgovorili na nekaj vprašanj o svoji izkušnji, kjer so podali dodatne povratne informacije.
 
+Rezultati testiranja so na voljo v razpredelnici [**analiza_uporabniskega_AB_testiranja.xlsx**](./analiza_uporabniskega_AB_testiranja.xlsx), posamezni testi pa v direktoriju [**testiranje AB**](./testiranje%20AB/).
+
 ### Analiza Podatkov (December)
-Po zaključku usability testiranja smo zbrane podatke podrobno analizirali, da bi pridobili vpogled v vedenje uporabnikov ter prepoznali ključne točke za izboljšave. Ta analiza nam bo služila kot osnova za naslednjo iteracijo prototipa. Podrobnosti analize so na voljo v datoteki **analiza_testiranj.docx**.
+Po zaključku usability testiranja smo zbrane podatke podrobno analizirali, da bi pridobili vpogled v vedenje uporabnikov ter prepoznali ključne točke za izboljšave. Ta analiza nam je služila kot osnova za naslednjo iteracijo prototipa. Podrobnosti analize so na voljo v datoteki [**analiza_testiranja_AB.docx**](./analiza_testiranja_AB.docx).
 
 ### Izboljšava Prototipa (Januar 2025)
-Na podlagi rezultatov analize podatkov iz usability testiranja in povratnih informacij uporabnikov smo začeli z izboljšavami prototipa. Namen te faze je bil optimizirati uporabniško izkušnjo, odpraviti zaznane težave ter še bolj dodelati vizualne in interaktivne elemente. Prototip je navoljo v mapi **spletni prototip**.
+Na podlagi analize podatkov iz usability testiranja ter povratnih informacij uporabnikov smo v januarju pričeli z izboljšavami prototipa. Cilj te faze je bil optimizacija uporabniške izkušnje, odprava zaznanih težav ter nadgradnja vizualnih in interaktivnih elementov. Posodobljeni prototip, ki je zdaj funkcionalna spletna stran v HTML in JavaScript, je na voljo v mapi [**spletni prototip**](./spletni%20prototip/) in dostopen na [tej povezavi](https://blazgrilj.github.io).
 
+### Analiza Nadgrajenega Prototipa (Januar)
+
+### Zaključno Poročilo o Projektu (Januar)
