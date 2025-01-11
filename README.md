@@ -56,10 +56,10 @@ High fidelity prototipiranje je potekalo v dveh korakih:
 
 2. **Uveljava interaktivnosti**: V tej fazi smo uvedli interaktivne funkcije. Prototip je omogočal simulacijo uporabniških interakcij, kot so kliki na gumbe, prehodi med zasloni ter odzivi aplikacije na uporabniške vnose.
 
-Za eno izmed ključnih funkcionalnosti smo pripravili dve različici prototipa, na katerih imamo kasneje namen izvesti A/B testiranje, da preverimo, katera verzija ponuja boljšo uporabniško izkušnjo. Obe različici sta na voljo v datoteki **high-prototipA**([povezava](https://www.figma.com/design/y3GHgfQ9yR8ZJ6P8EAOmjh/BI---A?t=iGR8Tc2kamiYd0s0-1)) in **high-prototipB**([povezava](https://www.figma.com/design/CRABkGBXD08iOQNXKYONNp/BI---B?t=iGR8Tc2kamiYd0s0-1))
+Za eno izmed ključnih funkcionalnosti smo pripravili dve različici prototipa, na katerih imamo kasneje namen izvesti A/B testiranje, da preverimo, katera verzija ponuja boljšo uporabniško izkušnjo. Obe različici sta na voljo v datoteki **high-prototipA.fig** ([povezava](https://www.figma.com/design/y3GHgfQ9yR8ZJ6P8EAOmjh/BI---A?t=iGR8Tc2kamiYd0s0-1)) in **high-prototipB.fig** ([povezava](https://www.figma.com/design/CRABkGBXD08iOQNXKYONNp/BI---B?t=iGR8Tc2kamiYd0s0-1)).
 
 ### Usability Testiranje (December)
-V okviru vaj smo izvedli usability testiranje našega high fidelity prototipa. Namen testiranja je bil preveriti uporabniško izkušnjo in pridobiti povratne informacije o funkcionalnosti ter enostavnosti uporabe aplikacije. Izroček, ki je bil namenjen enotnem testiranju je navoljo v datoteki **uporabniško_testiranje.docx**
+V okviru vaj smo izvedli usability testiranje našega high fidelity prototipa. Namen testiranja je bil preveriti uporabniško izkušnjo in pridobiti povratne informacije o funkcionalnosti ter enostavnosti uporabe aplikacije. Izroček, ki je bil namenjen enotnem testiranju je na voljo v datoteki **uporabniško_testiranje.docx**.
 
 Postopek testiranja je potekal v več fazah:
 
@@ -70,6 +70,8 @@ Postopek testiranja je potekal v več fazah:
 3. **Zbiranje povratnih informacij**: Med testiranjem smo spremljali, kako uporabniki pristopajo k reševanju nalog, zabeležili morebitne težave, na katere so naleteli, in zbirali njihove povratne informacije. Uporabniki so po testiranju odgovorili na nekaj vprašanj o svoji izkušnji, kjer so podali dodatne povratne informacije.
 
 ### Analiza Podatkov (December)
+Po zaključku usability testiranja smo zbrane podatke podrobno analizirali, da bi pridobili vpogled v vedenje uporabnikov ter prepoznali ključne točke za izboljšave. Ta analiza nam bo služila kot osnova za naslednjo iteracijo prototipa. Podrobnosti analize so na voljo v datoteki **analiza_testiranj.docx**.
 
 ### Izboljšava Prototipa (Januar 2025)
+Na podlagi rezultatov analize podatkov iz usability testiranja in povratnih informacij uporabnikov smo začeli z izboljšavami prototipa. Namen te faze je bil optimizirati uporabniško izkušnjo, odpraviti zaznane težave ter še bolj dodelati vizualne in interaktivne elemente. Prototip je navoljo v mapi **spletni prototip**.
 
