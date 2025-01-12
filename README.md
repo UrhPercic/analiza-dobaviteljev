@@ -7,11 +7,11 @@ Namen projekta je zbrati informacije in vpogled v uporabniško izkušnjo. Na pod
 
 ## O Projektu
 
-Smo skupina 10, ki jo sestavljamo:
-- **Manca Drašček**
-- **Blaž Grilj**
-- **Urh Perčič**
-- **Ana Poklukar**
+Smo skupina 10, ki jo sestavljamo:  
+- **Manca Drašček**: Priprava predloga projekta, izdelava low-fidelity prototipov v obliki skic in v Figmi, izvedba prvega usability testiranja ter analiza rezultatov tega testiranja.  
+- **Blaž Grilj**: Izdelava low-fidelity prototipov v obliki skic, izdelava high-fidelity prototipa v Figmi, sodelovanje pri prvem usability testiranju, izboljšave prototipa na podlagi povratnih informacij ter priprava zaključnega poročila.  
+- **Urh Perčič**: Priprava predloga projekta, izdelava low-fidelity prototipov v obliki skic in v Figmi ter analiza rezultatov drugega usability testiranja.  
+- **Ana Poklukar**: Raziskava uporabniških potreb, izdelava low-fidelity prototipov v obliki skic, sodelovanje pri izdelavi high-fidelity prototipa, priprava dokumentov za usability testiranja, izvedba usability testiranj ter priprava zaključnega poročila.  
 
 Repozitorij služi kot arhiv vseh aktivnosti, dokumentov ter datotek, ki smo jih uporabili in ustvarili med razvojem naše aplikacije.
 
